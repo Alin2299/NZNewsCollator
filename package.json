@@ -1,0 +1,18 @@
+{
+  "name": "nz-news-collator",
+  "version": "1.0.0",
+  "description": "This project aims to collate articles associated with a range of New Zealand newspapers/news sites (such as Stuff and the NZ Herald) using RSS feeds\r and then display them neatly/formatted on a page.",
+  "main": "collator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2"
+  },
+  "devDependencies": {}
+}

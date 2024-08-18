@@ -1,4 +1,4 @@
--- SQL file that creates the table for the news collator program
+-- SQL file that creates the table for the news collator
 CREATE TABLE nz_news_collator (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,

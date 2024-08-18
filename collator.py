@@ -1,3 +1,5 @@
+# Python file that retrives parsed articles from several RSS feeds and then saves them to a database
+
 # Import the necessary libraries
 import feedparser
 import mysql.connector
@@ -7,10 +9,9 @@ import os
 # Define the links to the relevant RSS feeds
 rnz_politics_rss = "https://www.rnz.co.nz/rss/political.xml"
 
-""" 
-Define a dictionary representing the database configuration
-that uses environment variables to obfuscate the actual values
-"""
+
+# Define a dictionary representing the database configuration
+# that uses environment variables to obfuscate the actual values
 db_config = {
     "user": os.getenv("NEWS_COLLATOR_DB_USER"),
     "password": os.getenv("NEWS_COLLATOR_DB_PASSWORD"),
